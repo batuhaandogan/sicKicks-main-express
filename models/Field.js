@@ -9,7 +9,7 @@ const fieldSchema = new Schema({
   time: String,
   matchType: String,
   price: Number,
-  teamsPlaying: [{type: Schema.Types.ObjectId}],
+  teamsPlaying: [],
   comments: [Object],
 });
 
@@ -17,3 +17,4 @@ const Field = mongoose.model("Field", fieldSchema);
 
 module.exports = Field;
 
+// {type: Schema.Types.ObjectId}
