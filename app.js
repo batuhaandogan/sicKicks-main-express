@@ -18,7 +18,7 @@ require('./config/passport');
 
 mongoose.Promise = Promise;
 mongoose
-  .connect('mongodb://localhost/sickicks', {useMongoClient: true})
+  .connect('mongodb://localhost/project-3-express', {useMongoClient: true})
   .then(() => {
     console.log('Connected to Mongo!')
   }).catch(err => {
