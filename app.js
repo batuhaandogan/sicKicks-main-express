@@ -79,10 +79,10 @@ app.use('/api', authRoutes);
 
 
 const fieldRoutes = require('./routes/field-routes');
-app.use('/fields', fieldRoutes)
+app.use('/api', fieldRoutes)
 
 
 const teamRoutes = require('./routes/team-routes');
-app.use('/teams', teamRoutes)
+app.use('/api', teamRoutes)
 
 module.exports = app;
