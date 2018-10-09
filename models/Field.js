@@ -12,7 +12,9 @@ const fieldSchema = new Schema({
   // teamsPlaying: [{type: Schema.Types.ObjectId}],
   teamsPlaying: [],
   homeTeam: String,
-  awayTeam: String
+  awayTeam: String,
+  details: String,
+  avatar: {type: String, default: "http://profilepicturesdp.com/wp-content/uploads/2018/06/default-user-profile-picture-6.png"}
   // comments: [Object],
 });
 

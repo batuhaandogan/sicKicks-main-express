@@ -26,6 +26,8 @@ router.post('/fields', (req, res, next)=>{
       price: req.body.price,
       teamsPlaying: req.body.teamsPlaying,
       comments: req.body.comments,
+      details: req.body.details,
+      avatar: req.body.avatar
 
     })
       .then(response => {
